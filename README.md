@@ -1,10 +1,10 @@
-# @riskxchange/logic
+# @riskxchange/logic-util
 
 Expand nested logical constructs to an array of conditional statements
 
 ## Usage
 
-```
+```js
 const {expand} = require('@riskxchange/logic-util')
 
 const res = expand({
@@ -24,11 +24,8 @@ const res = expand({
 })
 
 console.log(res)
-/*
-[
-  ['apple', 'pie'],
-  ['cherry', 'pie']
-]
+// [['apple', 'pie'], ['cherry', 'pie']]
+
 ```
 
 ### Node Structure
